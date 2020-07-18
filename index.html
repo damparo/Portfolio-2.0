@@ -1,16 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/7919941f53.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
-</head>
-<body>
-    <!-- nav bar here -->
-    <div class="row">
-        <div class="col-4"></div>
-        <div class="col-8"></div>
+  </head>
+  <body>
+    <div class="row container">
+      <div class="row circles">
+        <div class="col circleone"><p class="textbutton">Hello</p></div>
+        <div class="col circletwo"><p class="textbutton">About</p></div>
+        <div class="col circlethree"><p class="textbutton">Projects</p></div>
+        <div class="col circlefour"><p class="textbutton">Contact</p></div>
+      </div>
+
+      <div class="row" id="statement" style="display: none;">
+        <h4 id="Hello">
+          Hello, my name is Dennis Amparo <br />
+          and I'm a Full Stack Developer.
+        </h4>
+      </div>
+
+      <div class="row paragraph" id="about" style="display: none;">
+        <div class="row">
+          <h5 id="mystory">
+            I live in Scottsdale, AZ and graduated from Arizona State University
+            with a BS in Chemical Engineering. After working in chemicals for a
+            while, I decided to pursue my passion in web developement. Since
+            then, my mission has been to create high quality applications with
+            sound design and UI.
+            <br /><br />
+            In my free time I enjoy traveling, trying new food, and pursuing new
+            web development projects.
+          </h5>
+        </div>
+        <div class="row picturetime">
+          <img
+            id="mypic"
+            src="assets/IMG_8173.jpg"
+            alt="Man standing in front color background"
+            class="circle img-fluid"
+          />
+        </div>
+      </div>
+
+
+
+      <div class="row" id="myworks" style="display: none;">
+
+    
+          <div class="col s12">
+            <div class="card">
+              <div class="card-image">
+                  <a href="https://justphvn.github.io/ProjectOne-Vibes/" target="_blank">
+                      <img src="assets/mood.JPG"/>
+
+                  </a>
+              </div>
+
+              <div class="card-content">
+                <h6 class="projectheadings" id="projecttitle">Mood Generator</h6>
+
+                <p>
+                  App that allows
+                  a user to find out what their mood is
+                
+                </p>
+
+                 <h6 class="projectheadings"> Design/Front End Development</h6> 
+                <p></p>Built with:
+
+                Materialize CSS, HTML</p>
+              </div>
+              <hr>
+            </div>
+           
+          </div>
+          
+
+          <div class="col s12">
+            <div class="card">
+              <div class="card-image">
+                <a href="https://damparo.github.io/Weather-Dashboard/" target="_blank">
+                    <img src="assets/WeatherDash.JPG"/>
+
+                </a>
+              </div>
+
+              <div class="card-content">
+                <h6 class="projectheadings" id="projecttitle">City Forecast</h6>
+
+                <p>
+                  App that allows
+                  a user to find the current forecast for a city
+                
+                </p>
+
+                 <h6 class="projectheadings"> Design/Front End Development</h6> 
+                <p></p>Built with:
+
+                Materialize CSS, HTML, jQuery</p>
+              </div>
+              <hr>
+            </div>
+          </div>
+          
+
+
+
+
+
+
+
+        
+      </div>
+
+      <div class="row" id="contactme" style="display: none;">
+        <h5>For any inquiries or collaborations:</h5>
+
+        <a
+          href="mailto:dennisamparo11@gmail.com"
+          class="btn-small"
+          id="emailmebtn"
+          >Email Me</a
+        >
+      </div>
+
+      <div class="row" id="socialmedia" style="display: none;">
+        <a href="https://github.com/damparo" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/Amparo11/" target="_blank">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="mailto:dennisamparo11@gmail.com">
+          <i class="far fa-envelope"></i>
+        </a>
+      </div>
+
+      <!-- <div class="page-footer">
+        <div class="footer-copyright">
+            
+            © 2014 Copyright Text
+            
+          </div>
+
+      </div> -->
     </div>
 
-</body>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
