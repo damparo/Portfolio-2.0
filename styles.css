@@ -22,7 +22,9 @@ body {
     border-style: solid;
     border-width: 2px;
   }
-
+.darkmode {
+    padding-left: 65px;
+}
   #toggle {
       color: black;
       font-family: 'Raleway', sans-serif;
@@ -193,6 +195,10 @@ body {
     }
 
   }
+
+ .card-content {
+     color: black;
+ } 
 .projectheadings {
     font-weight: bold;
     
@@ -248,9 +254,14 @@ body {
     width: 115px;
     margin-top: 20px;
     text-transform: none;
-    font-size: 15px;
+    font-size: 12px;
     border-radius: 15px;
     
+}
+
+#emailmebtn:hover {
+background-color:  #F45F15;
+color: white;
 }
 
 
@@ -258,3 +269,97 @@ body {
     background-color:    #F2B705;
 
 }
+
+/* Dark Mode---------------------------------- */
+
+
+body.dark {
+    background-color: black;
+
+}
+
+.dark .circleone:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    
+}
+.dark .circletwo:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    
+}
+.dark .circlethree:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px; 
+    
+}
+.dark .circlefour:hover {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+  
+}
+
+.dark #statement {
+    color: white;
+}
+
+.dark .fab{
+    color: white;
+
+}
+.dark .far{
+    color: white;
+
+}
+
+.dark .paragraph {
+    color: white;
+}
+
+.dark .card{
+    background-color: black;
+    
+}
+
+.dark .projectrole {
+    color: #124E78;
+}
+
+.dark .projectheadings {
+    color: white;
+}
+.dark .card-content {
+    color: white;
+}
+
+.dark .nopics:hover {
+    background-color:    #F2B705;
+}
+
+.dark #contactme {
+    color: white;
+}
+
+.dark #emailmebtn {
+    border-style: solid;
+    border-color: #124E78;
+    border-width: 2px;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 115px;
+    margin-top: 20px;
+    text-transform: none;
+    font-size: 12px;
+    border-radius: 15px;
+    
+}
+
+.dark #emailmebtn:hover {
+    background-color:  #F45F15;
+    color: white;
+    }
