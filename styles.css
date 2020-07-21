@@ -10,7 +10,27 @@ body {
     align-items: center;
   
   }
+  .switch label input[type=checkbox]:checked+.lever {
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+  }
+  .switch label input[type=checkbox]:checked+.lever:after {
+    background-color:black;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+  }
 
+  #toggle {
+      color: black;
+      font-family: 'Raleway', sans-serif;
+  }
+.circles {
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
   .textbutton {
       text-align: center;
       padding-top: 14px;

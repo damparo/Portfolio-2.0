@@ -25,6 +25,9 @@ $(".circleone").on("click", function (event) {
   $("#myworks").hide();
   $("#contactme").hide();
   $("#socialmedia").show();
+  $(".circles").css("margin-bottom", "30px")
+  $(".circles").css("margin-top", "0px")
+
 });
 
 $(".circletwo").on("click", function (event) {
@@ -35,6 +38,7 @@ $(".circletwo").on("click", function (event) {
   $("#myworks").hide();
   $("#contactme").hide();
   $("#socialmedia").show();
+  $(".circles").css("margin-bottom", "30px")
 });
 
 $(".circlethree").on("click", function (event) {
@@ -46,6 +50,7 @@ $(".circlethree").on("click", function (event) {
   $("#contactme").hide();
   $("#socialmedia").show();
   $(".circles").css("margin-top", "30px")
+  $(".circles").css("margin-bottom", "30px")
 });
 
 $(".circlefour").on("click", function (event) {
@@ -57,4 +62,5 @@ $(".circlefour").on("click", function (event) {
     $("#statement").hide();
     $("#socialmedia").show();
     $(".circles").css("margin-top", "30px")
+    $(".circles").css("margin-bottom", "30px")
   });
