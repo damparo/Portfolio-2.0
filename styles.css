@@ -168,6 +168,13 @@ body {
   }
 .projectheadings {
     font-weight: bold;
+    
+
+}
+.projectrole {
+    font-weight: bold;
+    color:#F2B705;
+
 }
 /* #projecttitle {
     font-weight: bolder;
