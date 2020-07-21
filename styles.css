@@ -61,7 +61,8 @@ body {
   .circlethree {
     width: 75px;
     height: 75px;
-    background: #FDD349ed;
+    /* background: #FDD349ed; */
+    background: #F2B705;
     border-radius: 50%;
     /* border-style: solid;
     border-color:  #FDD349ed;
@@ -163,11 +164,11 @@ body {
 
   }
 .projectheadings {
+    font-weight: bold;
+}
+/* #projecttitle {
     font-weight: bolder;
-}
-#projecttitle {
-    color:  #FDD349ed;
-}
+} */
 
  #socialmedia {
      margin-top: 50px;
@@ -211,4 +212,10 @@ body {
     font-size: 15px;
     border-radius: 15px;
     
+}
+
+
+.nopics:hover {
+    background-color:  #F2B705;
+
 }
