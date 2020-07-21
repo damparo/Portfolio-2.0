@@ -108,6 +108,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     
+    
 
    
 }
@@ -163,6 +164,12 @@ body {
         margin-left: 18vw;
         margin-right: 18vw;
         
+    }
+
+    #mystory {
+        margin-left: 18vw;
+        margin-right: 18vw;
+
     }
 
   }
