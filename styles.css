@@ -61,7 +61,7 @@ body {
   .circleone:hover {
       border-style: solid;
       border-color: black;
-      border-width: 2px;
+      border-width: 3px;
       background: #124E78;
      
       
@@ -80,7 +80,7 @@ body {
   .circletwo:hover {
     border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 3px;
 }
   .circlethree {
     width: 80px;
@@ -96,7 +96,7 @@ body {
   .circlethree:hover {
     border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 3px;
 }
   .circlefour {
     width: 80px;
@@ -111,7 +111,7 @@ body {
   .circlefour:hover {
     border-style: solid;
     border-color: black;
-    border-width: 2px;
+    border-width: 3px;
 }
 
 #statement {
@@ -289,7 +289,7 @@ body.dark {
 .dark .circleone:hover {
     border-style: solid;
     border-color: rgb(20, 216, 20);
-    border-width: 2px;
+    border-width: 3px;
     
 }
 
@@ -303,7 +303,7 @@ body.dark {
 .dark .circletwo:hover {
     border-style: solid;
     border-color: rgb(20, 216, 20);
-    border-width: 2px;
+    border-width: 3px;
     
 }
 .dark .circlethree{
@@ -315,7 +315,7 @@ body.dark {
 .dark .circlethree:hover {
     border-style: solid;
     border-color:  rgb(20, 216, 20);
-    border-width: 2px; 
+    border-width: 3px; 
     
 }
 .dark .circlefour{
@@ -327,7 +327,7 @@ body.dark {
 .dark .circlefour:hover{
     border-style: solid;
     border-color: rgb(20, 216, 20);
-    border-width: 2px;
+    border-width: 3px;
   
 }
 
