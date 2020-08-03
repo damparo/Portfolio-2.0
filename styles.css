@@ -139,6 +139,7 @@ body {
 #mystory {
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-bottom: 25px;
 }
 
 .picturetime {
@@ -215,7 +216,7 @@ body {
 } */
 
  #socialmedia {
-     margin-top: 50px;
+     margin-top: 15px;
  }
 
 .fab {
