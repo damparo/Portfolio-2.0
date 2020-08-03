@@ -48,8 +48,8 @@ body {
   }
 
   .circleone {
-    width: 76px;
-    height: 76px;
+    width: 80px;
+    height: 78px;
     background: #124E78;
     border-radius: 50%;
     /* border-style: solid;
@@ -62,14 +62,15 @@ body {
       border-style: solid;
       border-color: black;
       border-width: 2px;
+      background: #124E78;
      
       
   }
 
   .circletwo {
-    width: 76px;
-    height: 76px;
-    background:#f8bcba;
+    width: 80px;
+    height: 78px;
+    background:#f3b0ae;
     border-radius: 50%;
     /* border-style: solid;
     border-color:  #F45F15;
@@ -82,8 +83,8 @@ body {
     border-width: 2px;
 }
   .circlethree {
-    width: 76px;
-    height: 76px;
+    width: 80px;
+    height: 78px;
     /* background: #FDD349ed; */
     background: #F2B705;
     border-radius: 50%;
@@ -98,8 +99,8 @@ body {
     border-width: 2px;
 }
   .circlefour {
-    width: 76px;
-    height: 76px;
+    width: 80px;
+    height: 78px;
     background: #F45F15;
     border-radius: 50%;
     /* border-style: solid;
@@ -278,13 +279,34 @@ body.dark {
 
 }
 
-.dark .circleone:hover {
+.dark .circleone{
     border-style: solid;
     border-color: white;
     border-width: 2px;
     
 }
+
+.dark .circleone:hover {
+    border-style: solid;
+    border-color: rgb(20, 216, 20);
+    border-width: 2px;
+    
+}
+
+.dark .circletwo{
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    
+}
+
 .dark .circletwo:hover {
+    border-style: solid;
+    border-color: rgb(20, 216, 20);
+    border-width: 2px;
+    
+}
+.dark .circlethree{
     border-style: solid;
     border-color: white;
     border-width: 2px;
@@ -292,13 +314,19 @@ body.dark {
 }
 .dark .circlethree:hover {
     border-style: solid;
-    border-color: white;
+    border-color:  rgb(20, 216, 20);
     border-width: 2px; 
     
 }
-.dark .circlefour:hover {
+.dark .circlefour{
     border-style: solid;
     border-color: white;
+    border-width: 2px;
+    
+}
+.dark .circlefour:hover{
+    border-style: solid;
+    border-color: rgb(20, 216, 20);
     border-width: 2px;
   
 }
@@ -306,6 +334,8 @@ body.dark {
 .dark #statement {
     color: white;
 }
+
+
 
 .dark .fab{
     color: white;
