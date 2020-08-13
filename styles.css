@@ -63,6 +63,7 @@ body {
       border-color: black;
       border-width: 3px;
       background: #124E78;
+      cursor: pointer;
      
       
   }
@@ -81,6 +82,7 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 3px;
+    cursor: pointer;
 }
   .circlethree {
     width: 80px;
@@ -97,6 +99,7 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 3px;
+    cursor: pointer;
 }
   .circlefour {
     width: 80px;
@@ -112,6 +115,7 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 3px;
+    cursor: pointer;
 }
 
 #statement {
@@ -121,6 +125,7 @@ body {
     text-align: center;
     margin-left: 5vw;
     margin-right: 5vw;
+    cursor: default;
 
 }
 
@@ -130,10 +135,8 @@ body {
     text-align: justify;
     margin-top: 20px;
     margin-bottom: 20px;
-    
-    
-
-   
+    cursor: default;
+     
 }
 
 #mystory {
@@ -243,6 +246,7 @@ body {
     text-align: center;
     margin-left: 5vw;
     margin-right: 5vw;
+    cursor: default;
 
 }
 
@@ -291,7 +295,7 @@ body.dark {
     border-style: solid;
     border-color: rgb(20, 216, 20);
     border-width: 3px;
-    
+    cursor: pointer;
 }
 
 .dark .circletwo{
@@ -305,6 +309,7 @@ body.dark {
     border-style: solid;
     border-color: rgb(20, 216, 20);
     border-width: 3px;
+    cursor: pointer;
     
 }
 .dark .circlethree{
@@ -317,7 +322,7 @@ body.dark {
     border-style: solid;
     border-color:  rgb(20, 216, 20);
     border-width: 3px; 
-    
+    cursor: pointer;
 }
 .dark .circlefour{
     border-style: solid;
@@ -329,6 +334,7 @@ body.dark {
     border-style: solid;
     border-color: rgb(20, 216, 20);
     border-width: 3px;
+    cursor: pointer;
   
 }
 
