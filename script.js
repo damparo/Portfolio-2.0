@@ -17,7 +17,7 @@ $(".circleone").on("click", function (event) {
   $("#contactme").hide();
   $("#socialmedia").show();
   $(".circles").css("margin-bottom", "30px")
-  $(".circles").css("margin-top", "0px")
+  $(".circles").css("margin-top", "30px")
   $(".darkmode").css("margin-top", "30px")
 
 });
