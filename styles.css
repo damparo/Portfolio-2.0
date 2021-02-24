@@ -1,6 +1,8 @@
 body {
-    /* background-color: #fbfbfb; */
+   
     background-color: white;
+/* 
+    background-color: #2B9D62; */
 }
 .container { 
     min-height: 100vh;  
@@ -50,8 +52,11 @@ body {
   .circleone {
     width: 80px;
     height: 78px;
-    background: #124E78;
+    background: #1248F3;
     border-radius: 50%;
+    /* border-style: solid;
+    border-color: #2A9754;
+    border-width: 2px; */
     /* border-style: solid;
     border-color:  #FDD349ed;
     border-width: 2px; */
@@ -62,7 +67,7 @@ body {
       border-style: solid;
       border-color: black;
       border-width: 3px;
-      background: #124E78;
+      background: #1248F3;
       cursor: pointer;
      
       
@@ -74,7 +79,7 @@ body {
     background:#f3b0ae;
     border-radius: 50%;
     /* border-style: solid;
-    border-color:  #F45F15;
+    border-color:  #E82028;
     border-width: 2px; */
     /* display: none; */
   }
@@ -104,10 +109,10 @@ body {
   .circlefour {
     width: 80px;
     height: 78px;
-    background: #F45F15;
+    background: #E82028;
     border-radius: 50%;
     /* border-style: solid;
-    border-color:   #124E78;
+    border-color:   #1248F3;
     border-width: 2px; */
     /* display: none; */
   }
@@ -165,19 +170,16 @@ body {
    
 }
 
-/* #project {
-    flex-direction: row;
-} */
+
 .square {
 
-   background-color: #F45F15;
+   background-color: #E82028;
     
   }
 
   #myworks {
     font-family: 'Raleway', sans-serif;
-    /* margin-left: 5vw;
-    margin-right: 5vw; */
+   
     margin-top: 20px;
   } 
 
@@ -211,30 +213,25 @@ body {
 }
 .projectrole {
     font-weight: bold;
-    color: #124E78;
+    color: #1248F3;
 
 }
-/* #projecttitle {
-    font-weight: bolder;
-} */
+
 
  #socialmedia {
      margin-top: 15px;
  }
 
 .fab {
-    /* padding: 10px; */
+
     font-size: 25px;
     width: 30px;
-    /* text-align: center;
-    text-decoration: none; */
-    /* margin: auto;
-    padding-left: 0; */
+  
     color: black;
     
   } 
   .far {
-    /* padding: 10px; */
+    
     font-size: 25px;
     width: 30px;
     color: black;
@@ -252,7 +249,7 @@ body {
 
 #emailmebtn {
     border-style: solid;
-    border-color: #124E78;
+    border-color: #1248F3;
     border-width: 2px;
     background-color: white;
     font-family: 'Raleway', sans-serif;
@@ -266,7 +263,7 @@ body {
 }
 
 #emailmebtn:hover {
-background-color:  #F45F15;
+background-color:  #E82028;
 color: white;
 }
 
@@ -363,7 +360,7 @@ body.dark {
 }
 
 .dark .projectrole {
-    color: #124E78;
+    color: #1248F3;
 }
 
 .dark .projectheadings {
@@ -383,7 +380,7 @@ body.dark {
 
 .dark #emailmebtn {
     border-style: solid;
-    border-color: #124E78;
+    border-color: #1248F3;
     border-width: 2px;
     background-color: black;
     font-family: 'Raleway', sans-serif;
@@ -397,6 +394,6 @@ body.dark {
 }
 
 .dark #emailmebtn:hover {
-    background-color:  #F45F15;
+    background-color:  #E82028;
     color: white;
     }
