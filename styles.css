@@ -8,6 +8,19 @@ body {
 h6 {
 
     line-height: 1.6;
+    font-size: 18px;
+}
+
+#teamRandomizer:link {
+
+    color: black
+
+}
+
+#teamRandomizer:hover {
+
+    color: #1248F3;
+
 }
 .container { 
     min-height: 100vh;  
