@@ -4,6 +4,11 @@ body {
 /* 
     background-color: #2B9D62; */
 }
+
+h6 {
+
+    line-height: 1.6;
+}
 .container { 
     min-height: 100vh;  
     display: flex;
@@ -140,7 +145,7 @@ body {
     margin-left: 5vw;
     margin-right: 5vw;
     cursor: default;
-
+    
 }
 
 .paragraph {
