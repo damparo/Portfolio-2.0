@@ -1,439 +1,407 @@
 body {
-   
-    background-color: white;
-/* 
+  background-color: white;
+  /* 
     background-color: #2B9D62; */
 }
 
 h6 {
-
-    line-height: 1.6;
-    font-size: 18px;
+  line-height: 1.6;
+  font-size: 18px;
 }
 
-#teamRandomizer:link {
-
-    color: black
-
+#teamRandomizer {
+  color: black;
 }
 
 #teamRandomizer:hover {
-
-    color: #1248F3;
-
+  color: #1248f3;
 }
-.container { 
-    min-height: 100vh;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  
-  }
-  .switch label input[type=checkbox]:checked+.lever {
-    background-color: black;
-    border-color: white;
-    border-style: solid;
-    border-width: 2px;
-  }
-  .switch label input[type=checkbox]:checked+.lever:after {
-    background-color:black;
-    border-color: white;
-    border-style: solid;
-    border-width: 2px;
-  }
+
+#techToolBox {
+  color: #e82028;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.switch label input[type="checkbox"]:checked + .lever {
+  background-color: black;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
+.switch label input[type="checkbox"]:checked + .lever:after {
+  background-color: black;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+}
 .darkmode {
-    padding-left: 65px;
+  padding-left: 65px;
 }
-  #toggle {
-      color: black;
-      /* font-family: 'Raleway', sans-serif; */
-      /* font-family: 'Noto Sans TC', sans-serif; */
-      /* font-family: 'Rubik', sans-serif; */
-      font-family: 'Krub', sans-serif;
-  }
+#toggle {
+  color: black;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: "Krub", sans-serif;
+}
 .circles {
-    margin-bottom: 200px;
-    margin-top: 200px;
+  margin-bottom: 200px;
+  margin-top: 200px;
 }
-  .textbutton {
-      text-align: center;
-      padding-top: 14px;
-      padding-bottom: 12px;
-      /* padding-left: 5px;
+.textbutton {
+  text-align: center;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  /* padding-left: 5px;
       padding-right: 5px; */
-      color: white;
-      font-weight:bolder;
-      /* font-family: 'Raleway', sans-serif; */
-      /* font-family: 'Noto Sans TC', sans-serif; */
-      /* font-family: 'Rubik', sans-serif; */
-      font-family: 'Krub', sans-serif;
-      font-size: 14px;
-  
-      
-  }
+  color: white;
+  font-weight: bolder;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: "Krub", sans-serif;
+  font-size: 14px;
+}
 
-  .circleone {
-    width: 80px;
-    height: 78px;
-    background: #1248F3;
-    border-radius: 50%;
-    /* border-style: solid;
+.circleone {
+  width: 80px;
+  height: 78px;
+  background: #1248f3;
+  border-radius: 50%;
+  /* border-style: solid;
     border-color: #2A9754;
     border-width: 2px; */
-    /* border-style: solid;
+  /* border-style: solid;
     border-color:  #FDD349ed;
     border-width: 2px; */
-    /* display: none; */
-  }
+  /* display: none; */
+}
 
-  .circleone:hover {
-      border-style: solid;
-      border-color: black;
-      border-width: 3px;
-      background: #1248F3;
-      cursor: pointer;
-     
-      
-  }
+.circleone:hover {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  background: #1248f3;
+  cursor: pointer;
+}
 
-  .circletwo {
-    width: 80px;
-    height: 78px;
-    background:#f3b0ae;
-    border-radius: 50%;
-    /* border-style: solid;
+.circletwo {
+  width: 80px;
+  height: 78px;
+  background: #f3b0ae;
+  border-radius: 50%;
+  /* border-style: solid;
     border-color:  #E82028;
     border-width: 2px; */
-    /* display: none; */
-  }
-  .circletwo:hover {
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    cursor: pointer;
+  /* display: none; */
 }
-  .circlethree {
-    width: 80px;
-    height: 78px;
-    /* background: #FDD349ed; */
-    background: #F2B705;
-    border-radius: 50%;
-    /* border-style: solid;
+.circletwo:hover {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  cursor: pointer;
+}
+.circlethree {
+  width: 80px;
+  height: 78px;
+  /* background: #FDD349ed; */
+  background: #f2b705;
+  border-radius: 50%;
+  /* border-style: solid;
     border-color:  #FDD349ed;
     border-width: 2px; */
-    /* display: none; */
-  }
-  .circlethree:hover {
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    cursor: pointer;
+  /* display: none; */
 }
-  .circlefour {
-    width: 80px;
-    height: 78px;
-    background: #E82028;
-    border-radius: 50%;
-    /* border-style: solid;
+.circlethree:hover {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  cursor: pointer;
+}
+.circlefour {
+  width: 80px;
+  height: 78px;
+  background: #e82028;
+  border-radius: 50%;
+  /* border-style: solid;
     border-color:   #1248F3;
     border-width: 2px; */
-    /* display: none; */
-  }
-  .circlefour:hover {
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    cursor: pointer;
+  /* display: none; */
+}
+.circlefour:hover {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  cursor: pointer;
 }
 
 #statement {
-    /* font-family: 'Raleway', sans-serif; */
-    /* font-family: 'Rubik', sans-serif; */
-    /* font-family: 'Noto Sans TC', sans-serif; */
-    font-family: 'Krub', sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    cursor: default;
-    
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Rubik', sans-serif; */
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  font-family: "Krub", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  cursor: default;
 }
 
 .paragraph {
-    /* font-family: 'Raleway', sans-serif; */
-    /* font-family: 'Noto Sans TC', sans-serif; */
-    /* font-family: 'Rubik', sans-serif; */
-    font-family: 'Krub', sans-serif;
-    /* font-size: large; */
-    text-align: justify;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    cursor: default;
-     
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: "Krub", sans-serif;
+  /* font-size: large; */
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: default;
 }
 
 #mystory {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-bottom: 25px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 25px;
 }
 
 .picturetime {
-    height: 150px;
-    width: 150px;
-    /* float: right; */
-    /* margin-left: 10px;
+  height: 150px;
+  width: 150px;
+  /* float: right; */
+  /* margin-left: 10px;
     margin-top: 20px; */
-    text-align: center;
-   
+  text-align: center;
 }
 
 #mypic {
-    height: 150px;
-    width: 150px;
-    /* float: right; */
-    /* margin-left: 10px;
+  height: 150px;
+  width: 150px;
+  /* float: right; */
+  /* margin-left: 10px;
     margin-top: 20px; */
-
-   
 }
-
 
 .square {
+  background-color: #e82028;
+}
 
-   background-color: #E82028;
-    
-  }
+#myworks {
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: "Krub", sans-serif;
 
-  #myworks {
-    /* font-family: 'Raleway', sans-serif; */
-    /* font-family: 'Noto Sans TC', sans-serif; */
-    /* font-family: 'Rubik', sans-serif; */
-    font-family: 'Krub', sans-serif;
-   
-    margin-top: 20px;
-  } 
+  margin-top: 20px;
+}
 
+.card {
+  box-shadow: none;
+}
+
+@media only screen and (min-width: 700px) {
   .card {
-    box-shadow: none;
-
+    margin-left: 18vw;
+    margin-right: 18vw;
   }
 
-  @media only screen and (min-width:700px){
-    .card {
-        margin-left: 18vw;
-        margin-right: 18vw;
-        
-    }
-
-    #mystory {
-        margin-left: 18vw;
-        margin-right: 18vw;
-
-    }
-
+  #mystory {
+    margin-left: 18vw;
+    margin-right: 18vw;
   }
+}
 
- .card-content {
-     color: black;
- } 
+.card-content {
+  color: black;
+}
 .projectheadings {
-    font-weight: bold;
-    
-
+  font-weight: bold;
 }
 .projectrole {
-    font-weight: bold;
-    color: #1248F3;
-
+  font-weight: bold;
+  color: #1248f3;
 }
 
-
- #socialmedia {
-     margin-top: 15px;
- }
+#socialmedia {
+  margin-top: 15px;
+}
 
 .fab {
+  font-size: 25px;
+  width: 30px;
 
-    font-size: 25px;
-    width: 30px;
-  
-    color: black;
-    
-  } 
-  .far {
-    
-    font-size: 25px;
-    width: 30px;
-    color: black;
-  }
-
+  color: black;
+}
+.far {
+  font-size: 25px;
+  width: 30px;
+  color: black;
+}
 
 #contactme {
-    margin-top: 25px;
-    text-align: center;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    cursor: default;
-
+  margin-top: 25px;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  cursor: default;
 }
 
 #emailmebtn {
-    border-style: solid;
-    border-color: #1248F3;
-    border-width: 2px;
-    background-color: white;
-    /* font-family: 'Raleway', sans-serif; */
-    /* font-family: 'Rubik', sans-serif; */
-    /* font-family: 'Noto Sans TC', 
+  border-style: solid;
+  border-color: #1248f3;
+  border-width: 2px;
+  background-color: white;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Rubik', sans-serif; */
+  /* font-family: 'Noto Sans TC', 
     sans-serif; */
-    font-family: 'Krub', sans-serif;
-    color: black;
-    width: 115px;
-    margin-top: 20px;
-    text-transform: none;
-    font-size: 12px;
-    border-radius: 15px;
-    
+  font-family: "Krub", sans-serif;
+  color: black;
+  width: 115px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-transform: none;
+  font-size: 12px;
+  border-radius: 15px;
 }
 
 #emailmebtn:hover {
-background-color:  #E82028;
-color: white;
+  background-color: #e82028;
+  color: white;
 }
 
-
 .nopics:hover {
-    background-color:    #F2B705;
-
+  background-color: #f2b705;
 }
 
 /* Dark Mode---------------------------------- */
 
-
 body.dark {
-    background-color: black;
-
+  background-color: black;
 }
 
-.dark .circleone{
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    
+.dark .circleone {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
 }
 
 .dark .circleone:hover {
-    border-style: solid;
-    border-color: rgb(20, 216, 20);
-    border-width: 3px;
-    cursor: pointer;
+  border-style: solid;
+  border-color: rgb(20, 216, 20);
+  border-width: 3px;
+  cursor: pointer;
 }
 
-.dark .circletwo{
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    
+.dark .circletwo {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
 }
 
 .dark .circletwo:hover {
-    border-style: solid;
-    border-color: rgb(20, 216, 20);
-    border-width: 3px;
-    cursor: pointer;
-    
+  border-style: solid;
+  border-color: rgb(20, 216, 20);
+  border-width: 3px;
+  cursor: pointer;
 }
-.dark .circlethree{
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    
+.dark .circlethree {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
 }
 .dark .circlethree:hover {
-    border-style: solid;
-    border-color:  rgb(20, 216, 20);
-    border-width: 3px; 
-    cursor: pointer;
+  border-style: solid;
+  border-color: rgb(20, 216, 20);
+  border-width: 3px;
+  cursor: pointer;
 }
-.dark .circlefour{
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    
+.dark .circlefour {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
 }
-.dark .circlefour:hover{
-    border-style: solid;
-    border-color: rgb(20, 216, 20);
-    border-width: 3px;
-    cursor: pointer;
-  
+.dark .circlefour:hover {
+  border-style: solid;
+  border-color: rgb(20, 216, 20);
+  border-width: 3px;
+  cursor: pointer;
 }
 
 .dark #statement {
-    color: white;
+  color: white;
 }
 
-
-
-.dark .fab{
-    color: white;
-
+.dark .fab {
+  color: white;
 }
-.dark .far{
-    color: white;
-
+.dark .far {
+  color: white;
 }
 
 .dark .paragraph {
-    color: white;
+  color: white;
 }
 
-.dark .card{
-    background-color: black;
-    
+.dark .card {
+  background-color: black;
 }
 
 .dark .projectrole {
-    color: #1248F3;
+  color: #1248f3;
 }
 
 .dark .projectheadings {
-    color: white;
+  color: white;
 }
 .dark .card-content {
-    color: white;
+  color: white;
 }
 
 .dark .nopics:hover {
-    background-color:    #F2B705;
+  background-color: #f2b705;
 }
 
 .dark #contactme {
-    color: white;
+  color: white;
 }
 
 .dark #emailmebtn {
-    border-style: solid;
-    border-color: #1248F3;
-    border-width: 2px;
-    background-color: black;
-    /* font-family: 'Raleway', sans-serif; */
-    /* font-family: 'Rubik', sans-serif; */
-    /* font-family: 'Noto Sans TC', sans-serif; */
-    font-family: 'Krub', sans-serif;
-    color: white;
-    width: 115px;
-    margin-top: 20px;
-    text-transform: none;
-    font-size: 12px;
-    border-radius: 15px;
-    
+  border-style: solid;
+  border-color: #1248f3;
+  border-width: 2px;
+  background-color: black;
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Rubik', sans-serif; */
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  font-family: "Krub", sans-serif;
+  color: white;
+  width: 115px;
+  margin-top: 20px;
+  text-transform: none;
+  font-size: 12px;
+  border-radius: 15px;
 }
 
 .dark #emailmebtn:hover {
-    background-color:  #E82028;
-    color: white;
-    }
+  background-color: #e82028;
+  color: white;
+}
+
+.dark #techToolBox {
+  color: #f2b705;
+}
+
+.dark #teamRandomizer {
+  color: white;
+}
+
+.dark #teamRandomizer:hover {
+    color: #1248f3;
+  }
