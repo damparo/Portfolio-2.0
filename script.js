@@ -1,8 +1,8 @@
-
+$("body").toggleClass("dark");
 
 $(document).on("change",".switch",function() { 
-    console.log("hello");
-    $("body").toggleClass("dark");
+  console.log("hello");
+  $("body").toggleClass("dark");
 
  });
 
