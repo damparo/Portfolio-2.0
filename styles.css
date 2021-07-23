@@ -246,7 +246,7 @@ h6 {
 }
 .projectrole {
   font-weight: bold;
-  color: #f3b0ae;
+  color: #2EA662;
 }
 
 #socialmedia {
@@ -299,6 +299,7 @@ h6 {
 
 .nopics:hover {
   background-color: #f2b705;
+  color: #e82028;
 }
 
 /* Dark Mode---------------------------------- */
@@ -375,8 +376,9 @@ body.dark {
 }
 
 .dark .projectrole {
-  color: #f3b0ae;
+  color: #2EA662;
 }
+
 
 .dark .projectheadings {
   color: #1248f3;
@@ -385,9 +387,10 @@ body.dark {
   color: white;
 }
 
-.dark .nopics:hover {
+.dark .nopics:hover  {
   background-color: #f2b705;
 }
+
 
 .dark #contactme {
   color: white;
