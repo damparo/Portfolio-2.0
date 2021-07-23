@@ -242,10 +242,11 @@ h6 {
 }
 .projectheadings {
   font-weight: bold;
+  color: #1248f3;
 }
 .projectrole {
   font-weight: bold;
-  color: #1248f3;
+  color: #f3b0ae;
 }
 
 #socialmedia {
@@ -374,11 +375,11 @@ body.dark {
 }
 
 .dark .projectrole {
-  color: #1248f3;
+  color: #f3b0ae;
 }
 
 .dark .projectheadings {
-  color: white;
+  color: #1248f3;
 }
 .dark .card-content {
   color: white;
